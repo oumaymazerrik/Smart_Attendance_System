@@ -1,0 +1,11 @@
+# Tested on Python 3.10.11, CPU. DeepFace 0.0.103 supports the installed ONNX weights.
+deepface==0.0.103
+onnxruntime==1.23.2
+opencv-contrib-python==4.11.0.86
+numpy==2.2.6
+pandas==2.3.3
+matplotlib==3.10.9
+Pillow==12.3.0
+tzdata>=2025.1
+# Tkinter is included with the standard Windows Python installer.
+# Install ONE OpenCV wheel only; see README for the existing conflicting wheels.
